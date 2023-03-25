@@ -64,7 +64,7 @@ nav {
     font-weight: 900;
     font-size: 166.854px;
     color: transparent;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #fff;
     margin: 0;
     letter-spacing: 0.1em;
