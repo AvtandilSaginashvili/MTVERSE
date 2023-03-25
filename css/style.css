@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #050505;
+    border-radius: 45px;
+    height: 100vh;
+    background-image: url(../pics/Vector.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../Inter.ttf);
+}
+
+@font-face {
+    font-family: PP Monument Extended;
+    src: url(../MonumentExtended.otf);
+}
+
+
+
+/* nav */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 39px;
+    padding-top: 59px;
+}
+
+
+
+/* content */
+
+
+.divbox {
+    position: relative;
+}
+
+.p1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.5px;
+    margin: 0;
+    color: #D6D6D6;
+}
+
+.h1-1 {
+    font-family: 'PP Monument Extended';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 166.854px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    margin: 0;
+    letter-spacing: 0.1em;
+}
+
+.image12 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.textbox {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.p2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 222px;
+    margin-left: 120px;
+}
+
